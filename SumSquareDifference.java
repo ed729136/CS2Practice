@@ -1,11 +1,22 @@
 public class SumSquareDifference
 {
+	/*
+	 * Both of these formulas are calculated from 1 to n which goes hand on hand with how both of these are explained
+	 * therefore the implication of square of sums being greater than sum of squares exists.
+	 */
+	
+	/*
+	 * Formula to find the square of sums
+	 */
 	public static int SquareOfSum( int number )
 	{
 		int total = ( number * ( number + 1 ) ) / 2;
 		return total *= total;
 	}
 	
+	/*
+	 * Formula to find the sum of squares
+	 */
 	public static int SumOfSquares( int number )
 	{
 		int total = ( number * ( number + 1 ) * ( 2 * number + 1) ) / 6;
