@@ -13,8 +13,7 @@ public class SumSquareDifference
 		return total *= total;
 	}
 	
-	//Formula to find the sum of squares
-	
+	//Formula to find the sum of squares	
 	public static int SumOfSquares( int number )
 	{
 		int total = ( number * ( number + 1 ) * ( ( number << 1 )  + 1) ) / 6;
