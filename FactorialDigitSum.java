@@ -26,7 +26,7 @@ public class FactorialDigitSum
 	 
 	 public static void main( String[] args )
 	 {
-		 BigInteger fact = factorial( 1000 );
+		 BigInteger fact = factorial( 100 );
 		 System.out.println("Factorial is " + fact);
 		 System.out.println( addition( fact.toString() ) );
 		 double end = System.nanoTime();
